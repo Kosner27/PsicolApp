@@ -1,4 +1,10 @@
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
+// Registros de errores
+ini_set('log_errors', 1);
+ini_set('error_log', 'C:/Users/Usuario/Desktop/DB/htdocs/PsicolApp/logIn.php');
     // Verificar si la solicitud es de tipo POST
     if ($_SERVER["REQUEST_METHOD"] == 'POST') {
         // Incluir el archivo de conexión a la base de datos
