@@ -6,5 +6,4 @@
         "",           // Contraseña de la base de datos (en este caso, se deja vacía)
         "psicolapp"   // Nombre de la base de datos a la que se desea conectar
     );
-
-
+    if ($$$)
